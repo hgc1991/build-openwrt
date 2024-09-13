@@ -23,21 +23,21 @@ sed -i 's/192.168.2.1/192.168.31.4/g' package/base-files/files/bin/config_genera
 # ------------------------------- Other started -------------------------------
 #
 # Add luci-app-amlogic
-svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-theme-argon openwrt-packages/luci-theme-argon
-svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-argon-config openwrt-packages/luci-app-argon-config
-svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-arpbind openwrt-packages/luci-app-arpbind
-svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-attendedsysupgrade openwrt-packages/luci-app-attendedsysupgrade
-svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-autoreboot openwrt-packages/luci-app-autoreboot
-svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-firewall openwrt-packages/luci-app-firewall
-svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-netdata openwrt-packages/luci-app-netdata
-svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-onliner openwrt-packages/luci-app-onliner
-svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-openclash openwrt-packages/luci-app-openclash
-svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-ramfree openwrt-packages/luci-app-ramfree
-svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-turboacc openwrt-packages/luci-app-turboacc
-svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-vlmcsd openwrt-packages/luci-app-vlmcsd
-svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-watchcat openwrt-packages/luci-app-watchcat
-svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-zerotier openwrt-packages/luci-app-zerotier
-svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-filetransfer openwrt-packages/luci-app-filetransfer
+#svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-theme-argon openwrt-packages/luci-theme-argon
+#svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-argon-config openwrt-packages/luci-app-argon-config
+#svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-arpbind openwrt-packages/luci-app-arpbind
+#svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-attendedsysupgrade openwrt-packages/luci-app-attendedsysupgrade
+#svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-autoreboot openwrt-packages/luci-app-autoreboot
+#svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-firewall openwrt-packages/luci-app-firewall
+#svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-netdata openwrt-packages/luci-app-netdata
+#svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-onliner openwrt-packages/luci-app-onliner
+#svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-openclash openwrt-packages/luci-app-openclash
+#svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-ramfree openwrt-packages/luci-app-ramfree
+#svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-turboacc openwrt-packages/luci-app-turboacc
+#svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-vlmcsd openwrt-packages/luci-app-vlmcsd
+#svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-watchcat openwrt-packages/luci-app-watchcat
+#svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-zerotier openwrt-packages/luci-app-zerotier
+#svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-filetransfer openwrt-packages/luci-app-filetransfer
 # coolsnowwolf default software package replaced with Lienol related software package
 # rm -rf feeds/packages/utils/{containerd,libnetwork,runc,tini}
 # svn co https://github.com/Lienol/openwrt-packages/trunk/utils/{containerd,libnetwork,runc,tini} feeds/packages/utils
