@@ -7,6 +7,7 @@
 #========================================================================================================================
 
 # Add a feed source
+echo 'src-git kiddin9 https://github.com/kiddin9/openwrt-packages' 》feeds.conf.default
 # sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 
 # other
